@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteRule ^Inicio$ index.php [NC,L]
+
+RewriteRule ^Home$ Home.php [NC,L]

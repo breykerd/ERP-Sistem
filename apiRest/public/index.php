@@ -7,7 +7,8 @@ require '../vendor/autoload.php';
 require '../src/config/db.php';
 $app = new \Slim\App;
 
-//routes Products
-require '../src/routes/products.php';
+
+//routes genral
+require '../src/routes/routs.php';
 
 $app->run();
